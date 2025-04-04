@@ -56,24 +56,6 @@ export function RegisterForm({
     }
   };
 
-  /*async function handleRegister(data: any) {
-    try {
-      let payload: any = {
-        "email": data.email,
-        "password": data.password,
-        "userType": "EMERALD_USER"
-      };
-      await api.post('/user/register', payload);
-
-      return true;
-    } catch (e: any) {
-        toast.error(e.response.data);
-      //form.setError('root', { message: e.response.data.message });
-    }
-
-    return false;
-  }*/
-
   return (
     <div className={cn("flex flex-col gap-6", className)} {...props}>
       <Card>

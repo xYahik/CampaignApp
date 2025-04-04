@@ -54,6 +54,7 @@ const cities = [
   { label: "Bydgoszcz", value: "bydgoszcz" },
   { label: "Lublin", value: "lublin" },
   { label: "Katowice", value: "katowice" },
+  { label: "Czestochowa", value: "czestochowa" },
 ] as const;
 
 const optionSchema = z.object({

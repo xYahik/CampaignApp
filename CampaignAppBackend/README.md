@@ -14,7 +14,7 @@ A simple Spring Boot application for campaign management.
 
 ## 📦 Requirements
 
-- Java 21+
+- Java 21
 - Maven 3.8+
 
 ## ⚙️ Setup & Run

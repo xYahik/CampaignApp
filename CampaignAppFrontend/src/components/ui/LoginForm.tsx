@@ -57,22 +57,6 @@ export function LoginForm({
     }
   };
 
-  /*async function handleLogin(data: any) {
-    try {
-      let payload: any = {
-        "email": data.email,
-        "password": data.password
-      };
-      const response = await api.post('/user/login', payload);
-      
-      return true;
-    } catch (e: any) {
-        toast.error(e.response.data);
-    }
-
-    return false;
-  }*/
-
   return (
     <div className={cn("flex flex-col gap-6", className)} {...props}>
       <Card>
