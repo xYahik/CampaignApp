@@ -16,7 +16,8 @@ For testing and fast development purposes, there were created a **very simple cu
 - **No Spring Security used**
 - **Passwords are not hashed**
 - **No refresh tokens**
-- **After successful login there's generated 1h authKey, after that time we need to log in again**
+- **After successful login there's generated 1h AuthToken, after that time we need to log in again**
+- **AuthToken is saved in localStorage**
 
 This is purely for testing basic features and flows.
 
